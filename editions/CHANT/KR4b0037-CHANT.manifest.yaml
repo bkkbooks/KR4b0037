@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4b0037/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4b0037/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 支遁集二卷補遺一卷
+  identifiers:
+    krp: KR4b0037
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0037.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0037_001-CHANT.yaml, hash: 'sha256:8188c3d5e656dd295f54f2d9f55755a6619f009e0a438560e300ca47f453c1b4'}
+  - {seq: 2, filename: KR4b0037_002-CHANT.yaml, hash: 'sha256:978305804abd6e27b2c627b46f2624be4c97f0ffc8776327ae228334993dea6f'}
+  - {seq: 3, filename: KR4b0037_003-CHANT.yaml, hash: 'sha256:ce2e18d1d2ee0bb896aa138a372ac17b24cd594acfed7ec0f1a6f5bacde8166c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0037_001-CHANT.markers.yaml, hash: 'sha256:396834fe678cde20ec181533daee8a27f931640e6b942728a8bf8fea90cd1710'}
+  - {seq: 2, role: markers, filename: assets/KR4b0037_002-CHANT.markers.yaml, hash: 'sha256:eeba57c2ab4cb8a585915d5ad4344cc3e863a5fbbfcb12d2e5f48215a5ab3f8f'}
+  - {seq: 3, role: markers, filename: assets/KR4b0037_003-CHANT.markers.yaml, hash: 'sha256:2e251e309c8cce376a90a1025c3cf2f3420f5a9f80ac9b30c3a8b06d2ad756c1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0037_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2166
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0037_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 3168
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0037_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 3953
+  label: 卷三
+  type: section
+  level: 1
+hash: sha256:aa195362daa8401a11366f2b35dae4b77e27b5a82736042e0d794ce9b7d68125

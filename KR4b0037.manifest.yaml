@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR4b0037/v1
+canonical_location: https://kanripo.org/bkk/KR4b0037/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 支遁集二卷補遺一卷
+  identifiers:
+    krp: KR4b0037
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0037.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0037_001.yaml, hash: 'sha256:18de152ef30549fd2ff9745c303162ffda0e44270a1fbf2f4eaccba6ce6b9983'}
+  - {seq: 2, filename: KR4b0037_002.yaml, hash: 'sha256:c91db9c0ec968350b4fb462b6682ff09419ea2248b8baef37bc40fc3eb04d920'}
+  - {seq: 3, filename: KR4b0037_003.yaml, hash: 'sha256:f9a45f349a497b14e51527fc940da076f3a8871db7b9b0237cf7477e1d10ca6d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0037_001.markers.yaml, hash: 'sha256:20c763dc72b11d08e56b74a993927c68c1c6b7a923b6ec710bf1cd18b9b9f6c2'}
+  - {seq: 2, role: markers, filename: assets/KR4b0037_002.markers.yaml, hash: 'sha256:a8b0f17f1f2534e638bf8f97b1d44d0e14ef4d1961c18b0bc445a8a8d25a5357'}
+  - {seq: 3, role: markers, filename: assets/KR4b0037_003.markers.yaml, hash: 'sha256:08e0fe8cf548d4fc4b95c7d561d9da2743287e53d86516925efe9eecc736f1aa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0037_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2166
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0037_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 3168
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0037_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 3953
+  label: 卷三
+  type: section
+  level: 1
+hash: sha256:7232e278b7387ceaea95b2c0c40250dd6bf9abb6f4304f41528d66358aaa2572
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
